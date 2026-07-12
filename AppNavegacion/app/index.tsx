@@ -8,7 +8,7 @@ export default function Inicio() {
     <View style={styles.container}>
       <Text style={styles.texto}>Pantalla de Inicio</Text>
       
-      {/* Navegamos a /detalle y enviamos el parámetro "nombre" en el objeto query */}
+      
       <Button 
         title="Ir a Detalle" 
         onPress={() => router.push({
